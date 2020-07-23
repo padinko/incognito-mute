@@ -1,0 +1,21 @@
+{
+  "name": "Incognito Mute",
+  "description": "Automatically mute all InPrivate (incognito) tabs.",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "homepage_url": "https://github.com/padinko/incognito-mute",
+  "permissions": [
+    "tabs"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": false
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
